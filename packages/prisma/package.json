@@ -1,0 +1,21 @@
+{
+  "name": "@repo/db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "devDependencies": {
+    "@repo/typescript-config": "*"
+  },
+  "exports":{
+    "./client":"./src/index.ts"
+  },
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "@prisma/config": "^7.10.1",
+    "@types/dotenv": "^6.1.1",
+    "dotenv": "^16.0.3"
+  }
+}
